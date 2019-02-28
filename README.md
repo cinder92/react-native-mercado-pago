@@ -1,6 +1,10 @@
 
 # react-native-mercado-pago
 
+## ATENTION
+
+THIS PLUGIN IS UNDER DEVELOPMENT, PLEASE DONT USE IT!
+
 ## Getting started
 
 `$ npm install react-native-mercado-pago --save`
