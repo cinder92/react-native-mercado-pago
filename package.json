@@ -1,0 +1,19 @@
+
+{
+  "name": "react-native-mercado-pago",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create" : "react-native-create-library MercadoPago --package-identifier com.cinder92.mercadopago --platforms 'ios,android' --author-name 'Dante Cervantes' --author-email 'cegodai@gmail.com' --github-account 'cinder92'"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
