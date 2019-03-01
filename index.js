@@ -53,7 +53,7 @@ const MercadoPago = {
         .then(response => response.json())
         .then(preference => {
             if(preference && preference.id){
-                RNMercadoPago.startPayment(publicKey,preference.id)
+                return RNMercadoPago.startPayment(publicKey,preference.id)
             }
         })
 
