@@ -1,13 +1,6 @@
 
 #import "RNMercadoPago.h"
+#import "React/RCTBridgeModule.h"
 
-@implementation RNMercadoPago
-
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
-RCT_EXPORT_MODULE()
-
+@interface RCT_EXTERN_REMAP_MODULE(RNMercadoPago, MercadoPago , NSObject)
 @end
-  

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FEC3BD715CED5CA589B55EF /* Pods_RNMercadoPago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D4961FC80B5FB89556FF22 /* Pods_RNMercadoPago.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMercadoPago.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMercadoPago.m */; };
+		BFA3ED3F2229D759001658A9 /* RNMercadoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3ED3E2229D759001658A9 /* RNMercadoPago.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +26,13 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNMercadoPago.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMercadoPago.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D4961FC80B5FB89556FF22 /* Pods_RNMercadoPago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNMercadoPago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNMercadoPago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMercadoPago.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMercadoPago.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMercadoPago.m; sourceTree = "<group>"; };
+		BEE1C03C1DB0A75B4181D101 /* Pods-RNMercadoPago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMercadoPago.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNMercadoPago/Pods-RNMercadoPago.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA3ED3D2229D759001658A9 /* RNMercadoPago-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNMercadoPago-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFA3ED3E2229D759001658A9 /* RNMercadoPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMercadoPago.swift; sourceTree = "<group>"; };
+		E45E726C2A728FCFC4D79065 /* Pods-RNMercadoPago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMercadoPago.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNMercadoPago/Pods-RNMercadoPago.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +40,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEC3BD715CED5CA589B55EF /* Pods_RNMercadoPago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06EEC3FC24DC30839DF707A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D4961FC80B5FB89556FF22 /* Pods_RNMercadoPago.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,10 +66,23 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				BFA3ED3E2229D759001658A9 /* RNMercadoPago.swift */,
 				B3E7B5881CC2AC0600A0062D /* RNMercadoPago.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMercadoPago.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				EE615B0E78C994211C7C3F12 /* Pods */,
+				06EEC3FC24DC30839DF707A1 /* Frameworks */,
+				BFA3ED3D2229D759001658A9 /* RNMercadoPago-Bridging-Header.h */,
 			);
+			sourceTree = "<group>";
+		};
+		EE615B0E78C994211C7C3F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEE1C03C1DB0A75B4181D101 /* Pods-RNMercadoPago.debug.xcconfig */,
+				E45E726C2A728FCFC4D79065 /* Pods-RNMercadoPago.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +92,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMercadoPago" */;
 			buildPhases = (
+				1009062FBF2E4379B0A4FBAF /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -87,6 +117,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -107,11 +138,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1009062FBF2E4379B0A4FBAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNMercadoPago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA3ED3F2229D759001658A9 /* RNMercadoPago.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMercadoPago.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,33 +255,44 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE1C03C1DB0A75B4181D101 /* Pods-RNMercadoPago.debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMercadoPago;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58B511F11A9E6C8500147676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNMercadoPago;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNMercadoPago-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45E726C2A728FCFC4D79065 /* Pods-RNMercadoPago.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNMercadoPago;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNMercadoPago-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
